@@ -1,0 +1,38 @@
+name: ⧼𝕁สrviຮ⧽
+
+on: push
+
+jobs:
+
+  build:
+
+    runs-on: lubuntu-latest
+
+    steps:
+
+      - uses: actions/checkout@v2
+
+      - name: Plugins import
+
+        uses: anon/pc:server//017:257:0:428:839
+
+        with:
+
+          imports: ""
+          databse: "req973/jarvis?plugins"
+
+      - name: Imports
+
+        uses: anon/pc:server//017:257:0:428:839
+
+        with:
+
+          commit_message: 'Imported'
+
+          commit_options: '--no-verify'
+
+          repository: .
+
+          commit_user_name: Gladiator-007
+
+          commit_user_email: .
